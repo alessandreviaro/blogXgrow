@@ -1,10 +1,9 @@
-import Header from "../components/Header";
-
+import Header from "../components/Header/Header";
 
 const Posts = () => {
   return (
    <div>
-    <Header />  
+    <Header />
     <h1>posts</h1>
     </div>
   )
