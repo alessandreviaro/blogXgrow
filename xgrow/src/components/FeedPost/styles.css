@@ -1,0 +1,30 @@
+.post_feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.feed-post-text {
+    color: #202833;
+    padding-left: 275px;
+    padding-bottom: 70px;
+}
+
+
+.headline {
+  font-size: xx-large;
+  margin-bottom: px;
+}
+
+.hd-description {
+  font-weight: bolder;
+  margin-top: 4px;
+}
+
+.day-data {
+  margin-top: 10px;
+}
+
+.article-2 {
+  display: ;
+}
