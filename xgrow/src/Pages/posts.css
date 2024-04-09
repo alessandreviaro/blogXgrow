@@ -1,0 +1,16 @@
+.initial-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-comments {
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    padding-top: 80px;
+}
