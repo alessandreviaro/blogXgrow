@@ -1,0 +1,52 @@
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.content {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #eeeeee;
+    max-width: 350px;
+    padding: 11px;
+}
+
+.label {
+    font-size: 40px;
+    font-weight: 600;
+    color: #202833;
+}
+
+.label-signup {
+    font-size: 16px;
+    color:#202833;
+    font-weight: 550;
+    padding-right: 10px;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
+
+.strong {
+    cursor: pointer; 
+    padding-left: 110px;
+    padding-top: -10px;
+}
+.register-login {
+    text-decoration: none;
+    color: #46a29f;
+    font-weight: 550;
+}

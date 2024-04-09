@@ -1,0 +1,12 @@
+.strong {
+    cursor: pointer; 
+    padding-left: 110px;
+    padding-top: -10px;
+}
+
+.label-signin {
+    font-size: 16px;
+    color:#202833;
+    font-weight: 550;
+    padding-right: 10px;
+}
