@@ -39,13 +39,12 @@ const Login = () => {
       <div className="container">
         <div className="label">Login</div>
         <div className="content">
-          <div className="label-signup">
-
-            <div className="label-signup-ch">Novo no site?</div>
-          <div className="strong">
-            <Link  className="register-login"to="/register">&nbsp;Registre-se</Link>
-          </div>
-          </div>
+        <div className="label-signup-container">
+            <div className="label-signup">Novo no site?</div>
+            <div className="strong">
+                <Link className="register-login" to="/register">&nbsp;Registre-se</Link>
+            </div>
+        </div>
             <Input 
             type="email"
             placeholder="Email..." 

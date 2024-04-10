@@ -47,8 +47,10 @@ const Register = () => {
       <div className="container">
         <div className="label">Registre-se</div>
         <div className="content">
-          <div className="label-signin">Já tem uma conta?</div>
-          <div className="strong"><Link className="register-login" to="/login">&nbsp;Faça Login</Link></div>
+          <div className="label-signup-container">
+            <div className="label-signin">Já tem uma conta?</div>
+            <div className="strong"><Link className="register-login" to="/login">&nbsp;Faça Login</Link></div>
+          </div>
           <Input 
           type ="email"
           placeholder="E-mail..."

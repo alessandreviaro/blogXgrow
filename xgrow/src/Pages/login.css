@@ -1,11 +1,8 @@
-
-
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
     height: 100vh;
     background-color: #eeeeee;
 }
@@ -28,11 +25,16 @@
     color: #202833;
 }
 
+.label-signup-container {
+    display: flex;
+    align-items: center;
+}
+
 .label-signup {
     font-size: 16px;
-    color:#202833;
+    color: #202833;
     font-weight: 550;
-    padding-right: 10px;
+    margin-right: -110px; 
 }
 
 .error {
