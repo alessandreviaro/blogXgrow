@@ -20,4 +20,5 @@ Um blog simples, usando conceito de SPA no React, com 8 "páginas".
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](![image](https://github.com/alessandreviaro/blogXgrow/assets/156126428/411751c5-f36c-4f62-8543-8c9c89f48021)
+)
