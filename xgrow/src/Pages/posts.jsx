@@ -7,7 +7,7 @@ const Posts = () => {
   return (
    <div>
       <Header />
-      <div className="initial-post">
+      <div className="post-container">
         <h1 className="blog-title">O futuro da Inteligência Artificial</h1>
         <p className="data-minute">5 min . Março 19, 2024</p>
         <img className='image-post' src='https://source.unsplash.com/random/1000x500?sig=1' alt='Rando'></img>
