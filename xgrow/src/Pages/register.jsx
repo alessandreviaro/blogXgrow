@@ -51,16 +51,19 @@ const Register = () => {
             <div className="label-signin">Já tem uma conta?</div>
             <div className="strong"><Link className="register-login" to="/login">&nbsp;Faça Login</Link></div>
           </div>
+          <div className="label-register">Email:</div>
           <Input 
           type ="email"
           placeholder="E-mail..."
           value={email}
           onChange={(e) => [setEmail(e.target.value), setError("") ]} />
+          <div className="label-register-problem">Confirme seu Email:</div>
           <Input 
           type ="email"
           placeholder="Confirme seu E-mail..."
           value={emailConfirma}
           onChange={(e) => [setEmailConfirma(e.target.value), setError("") ]} />
+          <div className="label-register">Senha:</div>
           <Input 
           type ="senha"
           placeholder="Digite sua senha..."

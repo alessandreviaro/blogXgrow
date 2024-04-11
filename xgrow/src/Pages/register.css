@@ -16,3 +16,18 @@
     padding-right: 10px;
     margin-right: -120px;
 }
+
+.label-register {
+    font-size: 19px;
+    font-weight: 600;
+    color: #202833;
+    margin-right: 330px;
+    white-space: nowrap;
+}
+.label-register-problem {
+    font-size: 19px;
+    font-weight: 600;
+    color: #202833;
+    margin-right: 210px;
+    white-space: nowrap;
+}

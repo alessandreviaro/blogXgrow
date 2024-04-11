@@ -45,12 +45,14 @@ const Login = () => {
                 <Link className="register-login" to="/register">&nbsp;Registre-se</Link>
             </div>
         </div>
+            <div className="label-login">Email:</div>
             <Input 
             type="email"
             placeholder="Email..." 
             value={email}
             onChange={(e) => [setEmail(e.target.value), setError("")]} 
             />
+            <div className="label-login">Senha:</div>
             <Input 
             type="password"
             placeholder="Senha..."
