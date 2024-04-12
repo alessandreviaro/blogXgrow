@@ -31,9 +31,9 @@ const Chome = ({ items }) => {
             <h1 className="blog-title">{initialPost.title}</h1>
             <h4 className="blog-description">Aqui você ficará bem informado como nosso blog</h4>
             <Link to="/posts">
-            <img className="image-post" src='https://unsplash.com/photos/FHnnjk1Yj7Y' alt="img-api" />
+            <img className="image-post" src={initialPost.image_url} alt="img-api"></img>
             <p className="post-description">{truncateString(initialPost.body, MAX_WORDS)}</p>
-            <p className="data-minute">{initialPost.created_at}</p> 
+            <p className="data-minute">{initialPost.time_read} Min • {initialPost.created_at}</p> 
             </Link>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Chome = ({ items }) => {
                   <div className="feed-post-text">
                     <h3 className="headline">{item.title}</h3>
                     <p className="hd-description">{truncateString(item.body, MAX_WORDS)}</p>
-                    <p className="day-data">{item.created_at}</p>
+                    <p className="day-data">{item.time_read} Min • {item.created_at}</p>
                   </div>
                 </article>
               </li>
