@@ -4,6 +4,7 @@ import { AuthProvider } from './Contexts/Auth';
 
 
 function App() {
+
   return (
     <AuthProvider>
     <div> 
