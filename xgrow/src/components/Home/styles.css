@@ -3,6 +3,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 .blog-title {
     display: flex;
@@ -27,6 +28,7 @@
     color: #202833;
 }
 .post-description {
+    text-decoration: none;
     margin-left: 10px;
     margin-top: 25px;
     font-weight: bold;
@@ -40,59 +42,48 @@
     font-size: 14px;
     color: #202833;
 }
-.post_feed {
+.list-post {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
+    list-style: none;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 500px;
+}
+
+.article {
+    display: flex;
+    margin-right: 20px; 
 }
 
 .feed-post-text {
     color: #202833;
-    padding-left: 275px;
-    padding-bottom: 90px;
+    padding-left: 10px;
 }
 
 .headline {
-    font-size: xx-large;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 5px;
 }
+
 .hd-description {
     color: #C8C4C1;
-    font-weight: bolder;
-    margin-top: 4px;
+    margin-bottom: 10px;
 }
+
 .day-data {
     margin-top: 8px;
-}
-
-.list-post ul {
-    list-style: none; 
-    padding: 0; 
-    display: block;
-}
-
-.list-post ul li {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  .article {
-    display: flex;
-    flex-direction: row;
-}
-
-.feed-post-text {
-    flex: 1;
-    height: 100px;
-    margin-top: -140px;
+    font-size: 0.8rem;
 }
 
 .image-posts {
-    width: 237px; 
-    height: 133px; 
-    margin-left: 20px; 
-    padding-top: 10px;
+    width: 237px;
+    height: 133px;
+    margin-right: 10px;
+     
 }
 
+  
