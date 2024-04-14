@@ -1,6 +1,6 @@
 # Desafio Final - XGrow Talents.
 
-Um blog simples, usando conceito de SPA no React, com 8 "páginas". 
+Um blog simples, usando conceito de SPA no React, com 6 "páginas". 
 
 # Tecnologias Utilizadas
 
@@ -19,6 +19,12 @@ Um blog simples, usando conceito de SPA no React, com 8 "páginas".
 
 
 ## Screenshots
+
+- Home page 
+  
+![home page 1](https://github.com/alessandreviaro/blogXgrow/assets/156126428/8a064f55-df9c-451f-b5e3-63e4ebfa5199)
+![home page 2](https://github.com/alessandreviaro/blogXgrow/assets/156126428/4b0fa898-7a2e-4d46-9292-5ccfaba4f7c0)
+
 
 - Posts page 
   
